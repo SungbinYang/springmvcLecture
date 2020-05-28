@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<base href="${pageContext.request.contextPath}/" />
+</head>
+<body>
+	<form action="./app/addBoard" method="post">
+		<p>
+			<input type="text" name="title" placeholder="제목" style="width: 100%;">
+		</p>
+		<p>
+			<textarea name="content" placeholder="내용" style="width: 100%; height: 100px;"></textarea>
+		</p>
+		<p>
+			<button type="submit">저장</button>
+		</p>
+	</form>
+</body>
+</html>
