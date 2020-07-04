@@ -1,0 +1,94 @@
+/* global properties */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	flex-grow: 1;
+}
+
+button, input, textarea {
+	font-size: 1em;
+	padding: 4px;
+}
+
+.header, .menu, .main, footer {
+	max-width: 800px;
+	margin: 30px;
+}
+
+.tl {
+	border-top: 1px solid gray;
+	padding-top: 10px;
+	word-wrap: break-word;
+}
+
+.bl {
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+}
+
+h1 {
+	padding-bottom: 10px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+.main :hover {
+	background-color: lightgray;
+}
+
+.main {
+	background-color: slateblue;
+	padding: 10px;
+	min-height: 50px;
+	color: white;
+}
+
+footer {
+	background-color: lightgray;
+	padding: 10px;
+}
+
+/* button, link properties*/
+button, .button {
+	background-color: skyblue;
+	color: white;
+	display: inline-block;
+	border: none;
+	outline: 0;
+	margin: 0 4px;
+	padding: 4px;
+}
+
+a.button:hover, button:hover {
+	background-color: Red;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* table properties */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
+th, td {
+	border-top: 1px solid gray;
+	padding: 4px;
+}
+
+th {
+	background-color: Tomato;
+	color: white;
+}
+
+.thead {
+	background-color: HotPink;
+	color: white;
+}
