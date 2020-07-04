@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
-<body>
+<body style="max-width: 800px; margin: auto;">
 	<h2>${greeting }</h2>
-	<h2><%=request.getAttribute("greeting")%></h2> <!-- ${greeting }과 동일 -->
+	<h2><%=request.getAttribute("greeting")%></h2>
 </body>
 </html>
