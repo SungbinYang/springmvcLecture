@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 검색폼과 데이터 바인딩하는 커맨드 오브젝트
  * 
- * @author Jacob
+ * @author Sungbin
  */
 @Data
 public class Search {
