@@ -1,0 +1,124 @@
+/* global properties */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+button, input, textarea {
+	font-size: 1em;
+	padding: 4px;
+}
+
+.header, .menu, .main, footer {
+	max-width: 800px;
+	margin: auto;
+}
+
+.tl {
+	border-top: 1px solid gray;
+	padding-top: 10px;
+}
+
+.bl {
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding-bottom: 10px;
+}
+
+p {
+	margin: 10px 0;
+}
+
+p.msg {
+	color: dodgerblue;
+}
+
+p.warn {
+	color: red;
+}
+/* layout properties */
+header {
+	background-color: Tomato;
+	color: white;
+}
+
+.header {
+	padding: 10px;
+}
+
+.menu {
+	background-color: OrangeRed;
+	padding-left: 10px;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	padding: 4px;
+	display: inline-block;
+}
+
+.menu a:hover {
+	background-color: Red;
+}
+
+.main {
+	background-color: Ivory;
+	padding: 10px;
+	min-height: 400px;
+}
+
+footer {
+	background-color: lightgray;
+	padding: 10px;
+}
+
+/* button, link properties*/
+button, .button {
+	background-color: Tomato;
+	color: white;
+	display: inline-block;
+	border: none;
+	outline: 0;
+	margin: 0 4px;
+	padding: 4px;
+}
+
+a.button:hover, button:hover {
+	background-color: Red;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* table properties */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+
+th, td {
+	border-top: 1px solid gray;
+	padding: 4px;
+}
+
+th {
+	background-color: Tomato;
+	color: white;
+}
+
+.thead {
+	background-color: HotPink;
+	color: white;
+}
