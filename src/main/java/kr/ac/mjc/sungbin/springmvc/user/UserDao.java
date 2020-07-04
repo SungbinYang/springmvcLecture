@@ -90,9 +90,9 @@ public class UserDao {
 	/**
 	 * 비밀번호 수정
 	 */
-	public int updatePassword(String id, String oldPassword,
+	public int updatePassword(String id, String currentPassword,
 			String newPassword) {
 		return jdbcTemplate.update(UPDATE_PASSWORD, newPassword, id,
-				oldPassword);
+				currentPassword);
 	}
 }
