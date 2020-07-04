@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<body>
+<body style="max-width: 800px; margin: auto;">
 	<h2>Bonjour le monde!</h2>
 </body>
 </html>
