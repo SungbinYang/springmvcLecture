@@ -6,7 +6,7 @@
 <html>
 <head>
 <base href="${pageContext.request.contextPath }/" />
-<link rel="stylesheet" href="css/springmvc.css">
+<link rel="stylesheet" href="css/story.css">
 </head>
 <body>
 	<div class="main">
