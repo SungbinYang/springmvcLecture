@@ -15,9 +15,10 @@
   		http://www.springframework.org/schema/jee
         https://www.springframework.org/schema/jee/spring-jee.xsd">
 
-	<mvc:annotation-driven />
 	<context:component-scan
 		base-package="kr.ac.mjc.sungbin.springmvc" />
+
+	<mvc:annotation-driven />
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -26,6 +27,13 @@
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**/s/**" />
+			<bean class="kr.ac.mjc.sungbin.springmvc.user.LoginInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
 
 	<jee:jndi-lookup id="dataSource" jndi-name="jdbc/jdbc" />
 
