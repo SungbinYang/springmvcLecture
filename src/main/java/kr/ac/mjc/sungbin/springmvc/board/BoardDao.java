@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 /**
  * p.224 BoardDAOSpring.java 수정
  * 
- * @author Jacob
+ * @author Sungbin
  */
 @Repository
 public class BoardDao {
