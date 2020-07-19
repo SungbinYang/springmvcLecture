@@ -1,7 +1,5 @@
 # springmvc
 
-# Lecture's Book : Spring Quick Start!
-
 # Day1
 - Hello World! 서버에 배포
 # Day2
